@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+#box1 {
+    background-color: darkred;
+    padding: 10px;
+    border: 10px solid pink;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#box2 {
+    background-color: darkolivegreen;
+    margin: 10px;
+}
+
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    border: 5px solid orange;
+    display: flex;
+    flex-direction: row-reverse;
+    /* direction can be either row , column etc */
+    flex-wrap: wrap;
+    /* wrap the flex content in multiple content */
+    justify-content: space-around;
+    /* Create space from left and right ie horizontally x-axis */
+    align-items: center;
+    /* Create space from top and bottom ie vertically y-axis */
+    flex
+}
+
+.container>div {
+    padding: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container>div:nth-child(1) {
+    background-color: orangered;
+}
+
+.container>div:nth-child(2) {
+    background-color: gold;
+}
+
+.container>div:nth-child(3) {
+    background-color: hotpink;
+}

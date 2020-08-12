@@ -1,0 +1,23 @@
+/*
+.grid {
+    display: grid;
+    background-color: greenyellow;
+    grid-template-columns: 100px 70px 160px 70px 50px;
+}
+*/
+
+.grid {
+    display: grid;
+    background-color: greenyellow;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    /* it is same as margin */
+    grid-column-gap: 30px;
+
+}
+
+div:first-child {
+    grid-column-start: 2;
+    /* it will make grid start from 2 */
+}
