@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid blueviolet;
+    position: absolute;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    /* it is combination of flex direction and flex wrap(flex flop)*/
+    width: 100%;
+    height: auto;
+}
+
+.myDiv {
+    height: 50px;
+    width: 50px;
+    border: 1px solid burlywood;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
